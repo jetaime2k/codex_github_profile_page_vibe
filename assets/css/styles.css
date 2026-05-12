@@ -4,8 +4,8 @@
   --color-text: #191b1d;
   --color-muted: #656c74;
   --color-border: #d9dde1;
-  --color-accent: #1f6f78;
-  --color-accent-strong: #16535a;
+  --color-accent: #2f6fab;
+  --color-accent-strong: #1f4f7d;
   --radius-md: 12px;
   --radius-lg: 20px;
   --space-1: 0.5rem;
@@ -31,7 +31,7 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   background:
     radial-gradient(circle at 10% 0%, #ffffff 0%, transparent 35%),
-    radial-gradient(circle at 90% 100%, #e7f0f1 0%, transparent 30%),
+    radial-gradient(circle at 90% 100%, #e9f1fb 0%, transparent 34%),
     var(--color-bg);
   color: var(--color-text);
   line-height: 1.7;
@@ -46,7 +46,7 @@ a {
 a:focus-visible,
 button:focus-visible,
 .project-card:focus-visible {
-  outline: 3px solid #8acfd6;
+  outline: 3px solid #99bee8;
   outline-offset: 3px;
 }
 
@@ -76,7 +76,7 @@ button:focus-visible,
   z-index: 100;
   background: rgba(246, 246, 242, 0.93);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(217, 221, 225, 0.8);
+  border-bottom: 1px solid rgba(175, 197, 223, 0.7);
 }
 
 .header-inner {
@@ -195,6 +195,7 @@ h1 span {
 .btn-primary {
   background: var(--color-accent);
   color: #fff;
+  box-shadow: 0 8px 20px rgba(47, 111, 171, 0.2);
 }
 
 .btn-primary:hover,
@@ -238,6 +239,7 @@ h1 span {
 
 .project-card:hover {
   transform: translateY(-3px);
+  border-color: rgba(47, 111, 171, 0.35);
 }
 
 .project-meta {
@@ -274,7 +276,7 @@ h1 span {
 }
 
 .site-footer {
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid rgba(175, 197, 223, 0.7);
   padding: var(--space-4) 0;
 }
 
